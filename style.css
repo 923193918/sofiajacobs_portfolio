@@ -1,0 +1,135 @@
+:root {
+    --bg: #ffb6d9;
+    --text: #222;
+    --link: #b3007a;
+    --accent: #ff69b4;
+    --max-width: 900px;
+}
+
+body {
+    margin: 0;
+    font-family: "Pixelify Sans", sans-serif;
+   background-color: #ffccdd;
+    color: var(--text);
+}
+
+header {
+    background-color: var(--link);
+    padding: 40px;
+    text-align: center;
+}
+
+.header-content {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2.5 rem;
+    margin: 0;
+}
+
+.title-with-gif {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-gif {
+    width: 40px;
+    height: auto;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2 rem;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: var(--accent);
+}
+
+.bungee-regular {
+    font-family: 'Bungee Regular', cursive;
+}
+
+.container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.img-box {
+    width: 550px;
+    margin: 30px auto;
+    padding: 30px;
+    background: #ffe0f0;
+    border: 3px solid #b3007a;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.img-box img {
+    width: 100%;
+    border-radius: 15px;
+    diplay: block;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.img-box img:hover {
+    box-shadow: 0 0 25px #ff69b4;
+    transform: scale(1.03);
+}
+
+.text-box {
+    width: 600px;
+    margin: 30px auto;
+    padding: 25px;
+    background: #ffe0f0;
+    border: 3px solid #b3007a;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #b3007a;
+    padding: 30px;
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+}
+
+.footer-content {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2 rem;
+}
+
+.fotter-link:hover {
+    color: var(--accent);
+}
+
