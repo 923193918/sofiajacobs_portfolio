@@ -1,0 +1,40 @@
+.top-border {
+    border-top: 8px solid #ff8acb;
+    box-shadow: 0 -6px 15px rgba(255, 140, 203, 0.6);
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+.top-border h1 {
+    margin: 0;
+    font-family: 'Bungee', sans-serif; /* matches your aesthetic */
+    color: #ff8acb;
+}
+
+h1, h2 {
+    font-family: 'Silkscreen', sans-serif;
+}
+
+body {
+    background-color: #ffd6e8; /* soft pink */
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+.img-box {
+    background-color: #ffe0f2;          /* soft pink box */
+    border: 3px solid #ff8acb;          /* bright pink border */
+    border-radius: 15px;                /* rounded corners */
+    padding: 15px;                      /* space around the image */
+    width: fit-content;                 /* box hugs the image */
+    margin: 15px 0;                     /* spacing above/below */
+    box-shadow: 0 0 12px rgba(255, 140, 203, 0.5); /* glow */
+}
+
+.img-box img {
+    display: block;
+    width: 200px;                       /* optional: consistent size */
+    border-radius: 10px;                /* soften image corners */
+}
+
+
