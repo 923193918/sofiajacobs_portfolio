@@ -19,8 +19,7 @@
     padding: 25px;
     background: #ffe0f0;
     border: 3px solid #b3007a;
-    border-radius: 20px;
-    text-align: center;  /* centers text + images inside */
+    border-radius: 20px;  /* centers text + images inside */
 }
 
 .top-box img {
