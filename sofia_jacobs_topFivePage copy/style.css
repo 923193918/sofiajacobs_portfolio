@@ -1,5 +1,5 @@
 .top-border {
-    border-top: 8px solid #ff8acb;
+    border-top: 8px solid #b3007a;
     box-shadow: 0 -6px 15px rgba(255, 140, 203, 0.6);
     padding: 20px 0;
     text-align: center;
@@ -17,7 +17,7 @@
     max-width: 800px;
     margin: 30px auto;   /* centers the whole box */
     padding: 25px;
-    background-color: #b3007a;
+    background-color: #ff8acb;
     border: 3px solid #b3007a;
     border-radius: 20px;  /* centers text + images inside */
 }
