@@ -17,7 +17,7 @@
     max-width: 800px;
     margin: 30px auto;   /* centers the whole box */
     padding: 25px;
-    background: #ffe0f0;
+    background-color: #b3007a;
     border: 3px solid #b3007a;
     border-radius: 20px;  /* centers text + images inside */
 }
