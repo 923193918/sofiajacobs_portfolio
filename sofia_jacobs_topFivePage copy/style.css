@@ -92,6 +92,10 @@ h1, h2 {
     line-height: 1.6;
 }
 
+.top-box .img-box img {
+    width: 140px;
+}
+
 .top-box ol,
 .top-box ul {
     padding-left: 20px;
@@ -111,9 +115,6 @@ h1, h2 {
     color: var(--accent);
 }
 
-.top-box .img-box img {
-    width: 140px;
-}
 
 /* FOOTER */
 footer {
