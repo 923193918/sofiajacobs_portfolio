@@ -1,3 +1,73 @@
+:root {
+    --bg: #ffb6d9;
+    --text: #222;
+    --link: #b3007a;
+    --accent: #ff69b4;
+    --max-width: 900px;
+}
+
+body {
+    margin: 0;
+    font-family: "Pixelify Sans", sans-serif;
+   background-color: #ffccdd;
+    color: var(--text);
+}
+
+header {
+    background-color: var(--link);
+    padding: 40px;
+    text-align: center;
+}
+
+.header-content {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2.5 rem;
+    margin: 0;
+}
+
+.title-with-gif {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-gif {
+    width: 40px;
+    height: auto;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2 rem;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: var(--accent);
+}
+
+.bungee-regular {
+    font-family: 'Bungee Regular', cursive;
+}
 .top-border {
     border-top: 8px solid #b3007a;
     box-shadow: 0 -6px 15px rgba(255, 140, 203, 0.6);
@@ -12,31 +82,6 @@
     color: #ff8acb;
 }
 
-
-.top-box {
-    width: 90%;
-    max-width: 800px;
-    margin: 30px auto;   /* centers the whole box */
-    padding: 25px;
-    background-color: #ff8acb;
-    border: 3px solid #b3007a;
-    border-radius: 20px;  /* centers text + images inside */
-}
-
-.top-box img {
-    width: 250px;        /* adjust size as needed */
-    display: block;
-    margin: 0 auto;      /* centers the image */
-    border-radius: 15px;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 30px;
-    margin: 0;
-    padding: 0;
-}
 
 h1, h2 {
     font-family: 'Silkscreen', sans-serif;
