@@ -82,7 +82,7 @@ h1, h2 {
 /* TOP-FIVE LIST BOXES */
 .top-box {
     width: 90%;
-    max-width: 700px;
+    max-width: 400px;
     margin: 30px auto;
     padding: 25px;
     background: #ffe0f0;
@@ -109,6 +109,10 @@ h1, h2 {
 
 .top-box a:hover {
     color: var(--accent);
+}
+
+.top-box .img-box img {
+    width: 140px;
 }
 
 /* FOOTER */
