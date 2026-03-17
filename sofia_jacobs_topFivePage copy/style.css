@@ -109,4 +109,28 @@ body {
     border-radius: 10px;                /* soften image corners */
 }
 
+footer {
+    background-color: #b3007a;
+    padding: 30px;
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+}
+
+.footer-content {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2 rem;
+}
+
+.fotter-link:hover {
+    color: var(--accent);
+}
 
